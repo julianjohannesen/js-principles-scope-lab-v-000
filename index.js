@@ -8,7 +8,7 @@ function upperCaseCustomerName(){
 console.log(upperCaseCustomerName());
 
 function setBestCustomer(){
-  var bestCustomer = 'not bob';
+  bestCustomer = 'not bob';
   return bestCustomer;
 }
 console.log("Best customer: " + bestCustomer);
