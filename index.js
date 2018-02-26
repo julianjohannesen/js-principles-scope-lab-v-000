@@ -23,3 +23,9 @@ function overwriteBestCustomer(){
 console.log("Best customer: " + bestCustomer);
 console.log("Run overwriteBestCustomer: " + overwriteBestCustomer);
 console.log("Best customer: " + bestCustomer);
+
+const leastFavoriteCustomer = "Chad";
+function changeLeastFavoriteCustomer(){
+  leastFavoriteCustomer = "Jan";
+  return leastFavoriteCustomer;
+}
