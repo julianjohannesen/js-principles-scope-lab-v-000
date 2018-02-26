@@ -7,8 +7,19 @@ function upperCaseCustomerName(){
 }
 console.log(upperCaseCustomerName());
 
-setBestCustomer(){
+function setBestCustomer(){
   bestCustomer = 'not bob';
+  return bestCustomer;
 }
-console.log(setBestCustomer);
-console.log(bestCustomer);
+console.log("Best customer: " + bestCustomer);
+console.log("Run setBestCustomer: " + setBestCustomer);
+console.log("Best customer: " + bestCustomer);
+
+function overwriteBestCustomer(){
+  bestCustomer = 'maybe bob';
+  return bestCustomer;
+}
+
+console.log("Best customer: " + bestCustomer);
+console.log("Run overwriteBestCustomer: " + overwriteBestCustomer);
+console.log("Best customer: " + bestCustomer);
