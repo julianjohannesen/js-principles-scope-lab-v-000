@@ -11,9 +11,6 @@ function setBestCustomer(){
   bestCustomer = 'not bob';
   return bestCustomer;
 }
-console.log("Best customer: " + bestCustomer);
-console.log("Run setBestCustomer: " + setBestCustomer);
-console.log("Best customer: " + bestCustomer);
 
 function overwriteBestCustomer(){
   bestCustomer = 'maybe bob';
