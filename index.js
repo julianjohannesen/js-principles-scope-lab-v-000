@@ -5,7 +5,6 @@ function upperCaseCustomerName(){
   customerName = customerName.toUpperCase();
   return customerName;
 }
-console.log(upperCaseCustomerName());
 
 function setBestCustomer(){
   bestCustomer = 'not bob';
@@ -16,10 +15,6 @@ function overwriteBestCustomer(){
   bestCustomer = 'maybe bob';
   return bestCustomer;
 }
-
-console.log("Best customer: " + bestCustomer);
-console.log("Run overwriteBestCustomer: " + overwriteBestCustomer);
-console.log("Best customer: " + bestCustomer);
 
 const leastFavoriteCustomer = "Chad";
 function changeLeastFavoriteCustomer(){
